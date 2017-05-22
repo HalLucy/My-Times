@@ -1,0 +1,38 @@
+#header{
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  color: MediumAquamarine;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.anchor{
+  display: inline-block;
+  padding: 0 12px;
+    color: black;
+}
+
+#header #logoandtext{
+  display: inline-flex;
+  align-items: center;
+}
+
+#text{
+  display: inline-flex;
+  flex-flow: wrap;
+}
+
+#logo{
+  padding: 10px;
+}
+
+#header #links{
+  display: inline-flex;
+  flex-flow: wrap;
+}
